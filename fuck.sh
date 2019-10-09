@@ -5,6 +5,7 @@ args=("$@")
 fuck_this()
 {
     echo "Sure thing."
+    sleep 1
     kill -9 $PPID
     exit
 }
@@ -12,12 +13,14 @@ fuck_this()
 fuck_you()
 {
     echo "Oh, really?"
+    sleep 2
     shutdown -h now
 }
 
 fuck_me()
 {
     echo "I am incapable of such a task. However, I have opened a new window for you that may be helpful. Good luck."
+    sleep 2
     if which xdg-open > /dev/null
     then
         xdg-open https://tinder.com
@@ -31,6 +34,7 @@ fuck_me()
 fuck_myself()
 {
     echo "Well, prepare your hand and paper..."
+    sleep 2
     if which xdg-open > /dev/null
     then
         xdg-open https://xvideos.com
@@ -56,6 +60,7 @@ myself)
     ;;
 *)
     echo "I know how you feel."
+    sleep 2
     exit
     ;;
 esac
