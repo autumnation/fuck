@@ -12,6 +12,8 @@ Otherwise, are you mad at the terminal itself? No problem! Tell it  `fuck you` o
 
 Or, say `fuck me`, and...it'll help you out with that a bit.
 
+But let's be honest, you are too ugly to be on tinder, just type `fuck myself` and let your hand handle your frustration.
+
 ## No, seriously, why?
 I don't know. Stop asking me. It's annoying. `fuck you`.
 
