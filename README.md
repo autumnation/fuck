@@ -16,7 +16,7 @@ Or, say `fuck me`, and...it'll help you out with that a bit.
 I don't know. Stop asking me. It's annoying. `fuck you`.
 
 ## Install globally...for some reason.
-`sudo mv fuck.sh /usr/bin/fuck`
+Run `install.sh`.
 
 ## Usage
 `fuck this | you | off | me`

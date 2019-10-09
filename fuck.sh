@@ -28,6 +28,19 @@ fuck_me()
     exit
 }
 
+fuck_myself()
+{
+    echo "Well, prepare your hand and paper..."
+    if which xdg-open > /dev/null
+    then
+        xdg-open xvideos.com
+    elif which gnome-open > /dev/null
+    then
+        gnome-open xvideos.com
+    fi
+    exit
+}
+
 case ${args[0]} in
 this)
     fuck_this
@@ -37,6 +50,9 @@ you | off)
     ;;
 me)
     fuck_me
+    ;;
+myself)
+    fuck_myself
     ;;
 *)
     echo "I know how you feel."
