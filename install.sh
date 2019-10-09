@@ -11,6 +11,7 @@ echo "All done updating"
 
 # Amazing fake loading bar! Totally not from stack overflow/exchange
 sudo cp -i ./fuck.sh /usr/bin/fuck
+sudo chmod +x /usr/bin/fuck
 echo -ne '#####                     (33%)\r'
 sleep 1
 echo -ne '#############             (66%)\r'
