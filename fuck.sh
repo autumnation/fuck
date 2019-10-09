@@ -20,10 +20,10 @@ fuck_me()
     echo "I am incapable of such a task. However, I have opened a new window for you that may be helpful. Good luck."
     if which xdg-open > /dev/null
     then
-        xdg-open tinder.com
+        xdg-open https://tinder.com
     elif which gnome-open > /dev/null
     then
-        gnome-open tinder.com
+        gnome-open https://tinder.com
     fi
     exit
 }
@@ -33,10 +33,10 @@ fuck_myself()
     echo "Well, prepare your hand and paper..."
     if which xdg-open > /dev/null
     then
-        xdg-open xvideos.com
+        xdg-open https://xvideos.com
     elif which gnome-open > /dev/null
     then
-        gnome-open xvideos.com
+        gnome-open https://xvideos.com
     fi
     exit
 }
