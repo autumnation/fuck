@@ -18,7 +18,7 @@ But let's be honest, if you have the time to use this script you *probably* aren
 I don't know. Stop asking me. It's annoying. `fuck you`.
 
 ## Install globally...for some reason.
-Run `install.sh`.
+Run `./install.sh` or to install without fetching from GitHub run `./install.sh -nu`.
 
 ## Usage
 `fuck this | you | off | me`
